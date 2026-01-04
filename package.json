@@ -1,8 +1,9 @@
 {
   "name": "snehal-anywhere-notes",
+  "description": "Create and manage global notes from any workspace using simple keyboard shortcuts.",
   "displayName": "Anywhere Notes",
   "publisher": "Snehal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "assets/global-notes.png",
   "preview": true,
   "galleryBanner.color": {
