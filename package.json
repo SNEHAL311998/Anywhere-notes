@@ -1,0 +1,69 @@
+{
+  "name": "global-notes",
+  "displayName": "Global Notes Manager",
+  "publisher": "your-unique-name",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youruser/global-notes"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "global-notes.setFolder",
+        "title": "Notes: Set Global Storage Folder"
+      },
+      {
+        "command": "global-notes.addNote",
+        "title": "Notes: Add New Note"
+      },
+      {
+        "command": "global-notes.createFolder",
+        "title": "Notes: Create New Folder"
+      },
+      {
+        "command": "global-notes.showFolder",
+        "title": "Notes: Show Current Notes Folder"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "global-notes.addNote",
+        "key": "ctrl+alt+n",
+        "mac": "cmd+alt+n"
+      },
+      {
+        "command": "global-notes.createFolder",
+        "key": "ctrl+alt+f",
+        "mac": "cmd+alt+f"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.107.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "typescript-eslint": "^8.48.1",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
