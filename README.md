@@ -1,4 +1,4 @@
-# Global Notes Manager 📝
+# Anywhere Notes Manager 📝
 
 A streamlined VS Code extension to manage your notes in one central location, regardless of which project or workspace you are currently working in.
 
@@ -26,7 +26,7 @@ A streamlined VS Code extension to manage your notes in one central location, re
 
 This extension contributes the following settings:
 
-* `global-notes.notesFolderPath`: Stores the absolute path to your global notes directory.
+* `anywhere-notes.notesFolderPath`: Stores the absolute path to your global notes directory.
 
 ---
 **Enjoy organized note-taking!**

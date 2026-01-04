@@ -1,6 +1,6 @@
 {
-  "name": "global-notes",
-  "displayName": "Global Notes Manager",
+  "name": "snehal-anywhere-notes",
+  "displayName": "Anywhere Notes",
   "publisher": "Snehal",
   "version": "1.0.0",
   "icon": "assets/global-notes.png",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SNEHAL311998/Global-notes"
+    "url": "https://github.com/SNEHAL311998/Global-notes.git"
   },
   "engines": {
     "vscode": "^1.107.0"
@@ -24,30 +24,30 @@
   "contributes": {
     "commands": [
       {
-        "command": "global-notes.setFolder",
-        "title": "Notes: Set Global Storage Folder"
-      },
-      {
-        "command": "global-notes.addNote",
+        "command": "anywhere-notes.addNote",
         "title": "Notes: Add New Note"
       },
       {
-        "command": "global-notes.createFolder",
-        "title": "Notes: Create New Folder"
+        "command": "anywhere-notes.setFolder",
+        "title": "Notes: Set Storage Folder"
       },
       {
-        "command": "global-notes.showFolder",
-        "title": "Notes: Show Current Notes Folder"
+        "command": "anywhere-notes.createFolder",
+        "title": "Notes: Create Folder"
+      },
+      {
+        "command": "anywhere-notes.showFolder",
+        "title": "Notes: Show Path"
       }
     ],
     "keybindings": [
       {
-        "command": "global-notes.addNote",
-        "key": "ctrl+alt+n",
-        "mac": "cmd+alt+n"
+        "command": "anywhere-notes.addNote",
+        "key": "ctrl+alt+c",
+        "mac": "cmd+alt+c"
       },
       {
-        "command": "global-notes.createFolder",
+        "command": "anywhere-notes.createFolder",
         "key": "ctrl+alt+f",
         "mac": "cmd+alt+f"
       }

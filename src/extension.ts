@@ -10,13 +10,13 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.StatusBarAlignment.Right,
     100
   );
-  myStatusBarItem.command = "global-notes.showFolder";
+  myStatusBarItem.command = "anywhere-notes.showFolder";
   context.subscriptions.push(myStatusBarItem);
   updateStatusBar(context);
 
   // --- COMMAND: SET STORAGE FOLDER ---
   let setFolder = vscode.commands.registerCommand(
-    "global-notes.setFolder",
+    "anywhere-notes.setFolder",
     async () => {
       const folderUri = await vscode.window.showOpenDialog({
         canSelectFolders: true,
@@ -40,7 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   // --- COMMAND: ADD NEW NOTE ---
   let addNote = vscode.commands.registerCommand(
-    "global-notes.addNote",
+    "anywhere-notes.addNote",
     async () => {
       const rootPath = context.globalState.get<string>("notesFolderPath");
 
@@ -81,7 +81,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   // --- COMMAND: CREATE EMPTY FOLDER ---
   let createFolder = vscode.commands.registerCommand(
-    "global-notes.createFolder",
+    "anywhere-notes.createFolder",
     async () => {
       const rootPath = context.globalState.get<string>("notesFolderPath");
       if (!rootPath) {
@@ -104,7 +104,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   // --- COMMAND: SHOW CURRENT FOLDER ---
   let showFolder = vscode.commands.registerCommand(
-    "global-notes.showFolder",
+    "anywhere-notes.showFolder",
     () => {
       const rootPath = context.globalState.get<string>("notesFolderPath");
       if (rootPath) {
@@ -142,7 +142,7 @@ async function promptSetFolder() {
     "Set Folder Now"
   );
   if (selection === "Set Folder Now") {
-    vscode.commands.executeCommand("global-notes.setFolder");
+    vscode.commands.executeCommand("anywhere-notes.setFolder");
   }
 }
 
