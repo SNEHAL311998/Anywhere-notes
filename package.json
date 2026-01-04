@@ -1,15 +1,20 @@
 {
   "name": "global-notes",
   "displayName": "Global Notes Manager",
-  "publisher": "your-unique-name",
+  "publisher": "Snehal",
   "version": "1.0.0",
-  "icon": "icon.png",
+  "icon": "assets/global-notes.png",
+  "preview": true,
+  "galleryBanner.color": {
+    "color": "#af4dc8",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/youruser/global-notes"
+    "url": "https://github.com/SNEHAL311998/Global-notes"
   },
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.107.0"
   },
   "categories": [
     "Other"

@@ -1,9 +1,11 @@
-# Change Log
+# Changelog
 
-All notable changes to the "global-notes" extension will be documented in this file.
+All notable changes to the "Global Notes Manager" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## [1.0.0] - 2026-01-05
+### Added
+- Initial release of Global Notes Manager.
+- Persistent global storage folder selection.
+- Commands to create notes and folders from any workspace.
+- Status bar display showing the current notes path.
+- Keyboard shortcuts: `Ctrl+Alt+N` (Note) and `Ctrl+Alt+F` (Folder).

@@ -1,71 +1,32 @@
-# global-notes README
+# Global Notes Manager 📝
 
-This is the README for your extension "global-notes". After writing up a brief description, we recommend including the following sections.
+A streamlined VS Code extension to manage your notes in one central location, regardless of which project or workspace you are currently working in.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Global Storage:** Set one folder on your computer to hold all your notes. 
+- **Workspace Independent:** Create and access notes from any VS Code window.
+- **Sub-folder Support:** Organize notes using slashes (e.g., `Work/ProjectA/Todo`).
+- **Status Bar Integration:** Always see your current notes directory at a glance.
 
-For example if there is an image subfolder under your extension project workspace:
+## Getting Started
 
-\!\[feature X\]\(images/feature-x.png\)
+1. **Set your folder:** Open the Command Palette (`Ctrl+Shift+P`) and run `Notes: Set Global Storage Folder`.
+2. **Take a note:** Use the shortcut `Ctrl+Alt+N` (or `Cmd+Alt+N` on Mac).
+3. **Organize:** Use `Ctrl+Alt+F` to create new sub-folders.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Keyboard Shortcuts
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+| Command | Keybinding (Win/Linux) | Keybinding (Mac) |
+| :--- | :--- | :--- |
+| Add New Note | `Ctrl+Alt+N` | `Cmd+Alt+N` |
+| Create Folder | `Ctrl+Alt+F` | `Cmd+Alt+F` |
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+* `global-notes.notesFolderPath`: Stores the absolute path to your global notes directory.
 
 ---
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Enjoy organized note-taking!**
