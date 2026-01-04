@@ -12,14 +12,14 @@ A streamlined VS Code extension to manage your notes in one central location, re
 ## Getting Started
 
 1. **Set your folder:** Open the Command Palette (`Ctrl+Shift+P`) and run `Notes: Set Global Storage Folder`.
-2. **Take a note:** Use the shortcut `Ctrl+Alt+N` (or `Cmd+Alt+N` on Mac).
+2. **Take a note:** Use the shortcut `Ctrl+Alt+C` (or `Cmd+Alt+C` on Mac).
 3. **Organize:** Use `Ctrl+Alt+F` to create new sub-folders.
 
 ## Keyboard Shortcuts
 
 | Command | Keybinding (Win/Linux) | Keybinding (Mac) |
 | :--- | :--- | :--- |
-| Add New Note | `Ctrl+Alt+N` | `Cmd+Alt+N` |
+| Add New Note | `Ctrl+Alt+C` | `Cmd+Alt+C` |
 | Create Folder | `Ctrl+Alt+F` | `Cmd+Alt+F` |
 
 ## Extension Settings
