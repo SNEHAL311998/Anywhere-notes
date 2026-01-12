@@ -3,7 +3,7 @@
   "description": "Create and manage global notes from any workspace using simple keyboard shortcuts.",
   "displayName": "Anywhere Notes",
   "publisher": "Snehal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "icon": "assets/global-notes.png",
   "preview": false,
   "galleryBanner.color": {
@@ -15,7 +15,7 @@
     "url": "https://github.com/SNEHAL311998/Global-notes.git"
   },
   "engines": {
-    "vscode": "^1.107.0"
+    "vscode": "^1.105.0"
   },
   "categories": [
     "AI",
@@ -89,7 +89,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.107.0",
+    "@types/vscode": "^1.105.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
     "typescript-eslint": "^8.48.1",
