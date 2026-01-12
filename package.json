@@ -3,9 +3,9 @@
   "description": "Create and manage global notes from any workspace using simple keyboard shortcuts.",
   "displayName": "Anywhere Notes",
   "publisher": "Snehal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icon": "assets/global-notes.png",
-  "preview": true,
+  "preview": false,
   "galleryBanner.color": {
     "color": "#af4dc8",
     "theme": "dark"
@@ -18,7 +18,33 @@
     "vscode": "^1.107.0"
   },
   "categories": [
+    "AI",
+    "Azure",
+    "Chat",
+    "Data Science",
+    "Debuggers",
+    "Extension Packs",
+    "Education",
+    "Formatters",
+    "Keymaps",
+    "Language Packs",
+    "Linters",
+    "Machine Learning",
+    "Notebooks",
+    "Programming Languages",
+    "SCM Providers",
+    "Snippets",
+    "Testing",
+    "Themes",
+    "Visualization",
     "Other"
+  ],
+  "keywords": [
+    "notes",
+    "memo",
+    "global",
+    "productivity",
+    "markdown"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
